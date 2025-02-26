@@ -51,12 +51,12 @@ body {
 
 .stSelectbox, .stNumberInput {
     font-size: 1rem;
-
+    border-radius: 2px;
     cursor: pointer;
 }
 
 .stSelectbox>div, .stNumberInput>div {
     border: 1px solid #2b98eb;
     cursor: pointer;
-   
+    border-radius: 2px;
 }
