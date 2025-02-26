@@ -21,7 +21,7 @@ body {
 .result {
     font-size: 1.8rem;
     text-align: center;
-    color: #12773c;
+    color: #3b119d;
     background-color: #ecf9f1;
     padding: 15px;
     border-radius: 2px;
@@ -34,25 +34,28 @@ body {
     border-radius: 2px;
     padding: 10px 20px;
     font-size: 1rem;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .stButton>button:hover {
     background-color: #d3bd16;
     color: white;
+    border-radius: 2px;
 }
 
 .sidebar .sidebar-content {
     background-color: #dfe6e9;
+    border: 1px solid #d3bd16;
 }
 
 .stSelectbox, .stNumberInput {
     font-size: 1rem;
-    border-radius: 8px;
+    border-radius: 2px;
     cursor: pointer;
 }
 
 .stSelectbox>div, .stNumberInput>div {
     border: 1px solid #d3bd16;
     cursor: pointer;
+    border-radius: 2px;
 }
