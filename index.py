@@ -8,8 +8,8 @@ with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Title
-st.markdown("<h1 class='title'>▶️ UNIT CONVERTER</h1>", unsafe_allow_html=True)
-st.markdown("<p class='subtitle'>Convert Units Easily.</p>", unsafe_allow_html=True)
+st.markdown("<h1 class='title'>UNIT CONVERTER</h1>", unsafe_allow_html=True)
+st.markdown("<p class='subtitle'>Convert Units Easily in Lenghts, Weight & Temperature</p>", unsafe_allow_html=True)
 
 # Conversion Data
 conversion_factors = {
