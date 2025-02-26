@@ -1,7 +1,7 @@
 import streamlit as st
 
 #Configuration 
-st.set_page_config(page_title="Unit Converter", page_icon="🔄", layout="centered")
+st.set_page_config(page_title="Unit Converter", page_icon="", layout="centered")
 
 # Load CSS
 with open("styles.css") as f:
