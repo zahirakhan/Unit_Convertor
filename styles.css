@@ -19,10 +19,11 @@ body {
 }
 
 .result {
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
-    color: #3b119d;
-    background-color: #ecf9f1;
+    text-transform: uppercase;
+    color: white;
+    background-color: #2b98eb;
     padding: 15px;
     border-radius: 2px;
     margin-top: 20px;
@@ -38,14 +39,14 @@ body {
 }
 
 .stButton>button:hover {
-    background-color: #d3bd16;
+    background-color: #2b98eb;;
     color: white;
     border-radius: 2px;
 }
 
 .sidebar .sidebar-content {
     background-color: #dfe6e9;
-    border: 1px solid #d3bd16;
+    border: 1px solid #2b98eb;;
 }
 
 .stSelectbox, .stNumberInput {
@@ -55,7 +56,7 @@ body {
 }
 
 .stSelectbox>div, .stNumberInput>div {
-    border: 1px solid #d3bd16;
+    border: 1px solid #2b98eb;
     cursor: pointer;
     border-radius: 2px;
 }
