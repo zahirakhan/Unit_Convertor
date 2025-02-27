@@ -1,6 +1,6 @@
 import streamlit as st
 
-#Configuration 
+# Configuration 
 st.set_page_config(page_title="Unit Converter", page_icon="", layout="centered")
 
 # Load CSS
@@ -9,7 +9,7 @@ with open("styles.css") as f:
 
 # Title
 st.markdown("<h1 class='title'>UNIT CONVERTER</h1>", unsafe_allow_html=True)
-st.markdown("<p class='subtitle'>Convert Units Easily in Lenghts, Weight & Temperature</p>", unsafe_allow_html=True)
+st.markdown("<p class='subtitle'>Convert Length, Weight & Temperature.</p>", unsafe_allow_html=True)
 
 # Conversion Data
 conversion_factors = {
@@ -18,10 +18,10 @@ conversion_factors = {
     "Temperature": {"Celsius": "C", "Fahrenheit": "F", "Kelvin": "K"}
 }
 
-# Sidebar
-category = st.sidebar.selectbox("Select Unit Category", list(conversion_factors.keys()))
-st.sidebar.markdown("Project By Zahira Khan")
+# Category Selection 
+category = st.selectbox("Select Unit Category", list(conversion_factors.keys()))
 
+# Conversion Function
 def convert_units(value, from_unit, to_unit, category):
     if category == "Temperature":
         return convert_temperature(value, from_unit, to_unit)
